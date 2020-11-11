@@ -1,0 +1,17 @@
+﻿<Window x:Class="CheckerApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CheckerApp"
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen"
+        Title="Checker" Height="450" Width="800">
+    <Grid>
+        <Label Content="Fibonacci Checker" HorizontalAlignment="Left" Margin="331,120,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Checks if the value belongs to Fibonacci sequence or not" HorizontalAlignment="Left" Margin="244,146,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="input" HorizontalAlignment="Left" Height="23" Margin="331,182,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" AcceptsReturn="True" PreviewTextInput="input_previewtextinput"/>
+        <Button x:Name="button" Content="Check" HorizontalAlignment="Left" Margin="346,223,0,0" VerticalAlignment="Top" Width="75" AllowDrop="True" Click="Button_Click"/>
+        <TextBlock x:Name="answertext" HorizontalAlignment="Left" Margin="311,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158"/>
+
+    </Grid>
+</Window>
